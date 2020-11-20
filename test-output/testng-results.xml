@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54374" started-at="2020-11-20T06:00:07Z" finished-at="2020-11-20T06:01:02Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="25445" started-at="2020-11-20T06:00:07Z" finished-at="2020-11-20T06:00:33Z">
+      <class name="com.DelarSoftPageFactory.DelarPageFactory">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.DelarSoftPageFactory.DelarPageFactory@1e88b3c]" name="setUp" is-config="true" duration-ms="2261" started-at="2020-11-20T06:00:07Z" finished-at="2020-11-20T06:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.DelarSoftPageFactory.DelarPageFactory@1e88b3c]" name="scenario1" duration-ms="22413" started-at="2020-11-20T06:00:10Z" finished-at="2020-11-20T06:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="afterSetUp()[pri:0, instance:com.DelarSoftPageFactory.DelarPageFactory@1e88b3c]" name="afterSetUp" is-config="true" duration-ms="750" started-at="2020-11-20T06:00:32Z" finished-at="2020-11-20T06:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSetUp -->
+      </class> <!-- com.DelarSoftPageFactory.DelarPageFactory -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="28861" started-at="2020-11-20T06:00:33Z" finished-at="2020-11-20T06:01:02Z">
+      <class name="com.DelarSoftPageFactory.DelarBlousePageFactory">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.DelarSoftPageFactory.DelarBlousePageFactory@14bf9759]" name="setUp" is-config="true" duration-ms="5672" started-at="2020-11-20T06:00:33Z" finished-at="2020-11-20T06:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenario2()[pri:0, instance:com.DelarSoftPageFactory.DelarBlousePageFactory@14bf9759]" name="scenario2" duration-ms="20999" started-at="2020-11-20T06:00:39Z" finished-at="2020-11-20T06:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="afterSetUp()[pri:0, instance:com.DelarSoftPageFactory.DelarBlousePageFactory@14bf9759]" name="afterSetUp" is-config="true" duration-ms="2184" started-at="2020-11-20T06:01:00Z" finished-at="2020-11-20T06:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSetUp -->
+      </class> <!-- com.DelarSoftPageFactory.DelarBlousePageFactory -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

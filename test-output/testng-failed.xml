@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="methods">
+  <test thread-count="4" name="Test1(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.DelarSoftPageFactory.DelarPageFactory">
+        <methods>
+          <include name="afterSetUp"/>
+          <include name="setUp"/>
+          <include name="scenario1"/>
+        </methods>
+      </class> <!-- com.DelarSoftPageFactory.DelarPageFactory -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
